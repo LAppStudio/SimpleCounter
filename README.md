@@ -1,3 +1,3 @@
-<button onclick="window.open('https://expo.io/@giovanninp/simplecounter')"> 
-    Try Out 
-</button>
+SIMPLE COUNTER
+
+TRY IT -> 'https://expo.io/@giovanninp/simplecounter'
