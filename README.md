@@ -1,3 +1,3 @@
 # SimpleCounter
 
-[Try url='https://expo.io/@giovanninp/simplecounter']
+[button url='https://expo.io/@giovanninp/simplecounter'] Try
