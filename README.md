@@ -1,6 +1,3 @@
-# SimpleCounter
-
-[button url='https://expo.io/@giovanninp/simplecounter'] Try
-
-
-<button name="button" onclick="https://expo.io/@giovanninp/simplecounter">Try Out</button>
+<button onclick="window.open('https://expo.io/@giovanninp/simplecounter')"> 
+    Try Out 
+</button>
