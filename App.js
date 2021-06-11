@@ -3,14 +3,16 @@ import React, { Fragment } from "react";
 
 import { CounterScreen } from "./src/screens";
 
-import { CountContext } from "./src/context";
+import { CountContext, ThemeContext } from "./src/context";
 
 export default function App() {
   return (
     <Fragment>
       <StatusBar style="auto" />
       <CountContext>
-        <CounterScreen />
+        <ThemeContext>
+          <CounterScreen />
+        </ThemeContext>
       </CountContext>
     </Fragment>
   );

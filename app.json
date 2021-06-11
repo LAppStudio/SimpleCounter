@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "counter",
-    "slug": "counter",
+    "name": "SimpleCounter",
+    "slug": "simplecounter",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -17,16 +17,22 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.lapp.simplecounter",
+      "buildNumber": "1.0.0"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.lapp.simplecounter",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "A simple counter, done in 30 minutes.",
+    "githubUrl": "https://github.com/LAppStudio/SimpleCounter"
   }
 }
